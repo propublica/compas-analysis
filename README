@@ -1,0 +1,15 @@
+                  Low  High
+                 +---------+
+Didn't Reoffend  |____|____|
+Reoffended       |    |    |
+                 +---------+
+
+
+This repository contains a Jupyter notebook and data for the ProPublica story "Machine Bias."
+
+Story:
+
+Main Dataset:
+compas.db - a sqlite3 database containing criminal history, jail and prison time, demographics and COMPAS risk scores for defendants from Broward County.
+
+Other files as needed for the analysis.
