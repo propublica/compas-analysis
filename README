@@ -1,0 +1,15 @@
+                  Low  High
+                 +---------+
+Didn't Re-Offend |____|____|
+Re-Offend        |    |    |
+                 +---------+
+
+
+This repository contains an Jupyter notebook and data for Branding Future Criminals: It’s Black and White
+
+Story:
+
+Main Dataset:
+compas.db - a sqlite3 database containing criminal history, jail and prison time, demographics and COMPAS risk scores for defendants from Broward County.
+
+The other files are needed for the analysis.
