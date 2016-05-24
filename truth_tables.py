@@ -177,6 +177,7 @@ def is_race(race):
 
 
 def write_two_year_file(f, pop, test, headers):
+    headers = list(headers)
     headers.append('two_year_recid')
     with open(f, 'w') as o:
         writer = DictWriter(o, fieldnames=headers)
