@@ -138,7 +138,7 @@ def t(tn, fp, fn, tp):
     sens = tp / (tp + fn)
     ppv = tp / (tp + fp)
     npv = tn / (tn + fn)
-    prev = (tp + tn) / (surv + recid)
+    prev = recid / (surv + recid)
     print("Specificity: %.2f" % spec)
     print("Sensitivity: %.2f" % sens)
     print("Prevalence: %.2f" % prev)
