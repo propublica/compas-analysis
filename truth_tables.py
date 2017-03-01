@@ -193,6 +193,10 @@ def write_two_year_file(f, pop, test, headers):
                 row['c_charge_degree'] = 'F'
             else:
                 row['c_charge_degree'] = 'M'
+
+            # replace commas in decimal values to avoid parsing confusion
+            row =  { k: str(row[k]).replace(",", ".") for k in row }
+
             writer.writerow(row)
             stdout.write('.')
 
